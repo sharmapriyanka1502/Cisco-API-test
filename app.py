@@ -2,10 +2,10 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 def index():
-    return "index-test"
+    return 'index-test'
     
-@app.route("/tac_status")
+@app.route('/tac_status')
 def tac_status():
-    return "sharmapriyanka2585@gmail.com"
+    return 'sharmapriyanka2585@gmail.com'
